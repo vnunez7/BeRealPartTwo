@@ -3,17 +3,18 @@
 //  BeRealPartTwo
 //
 //  Created by Victoria Nunez on 4/7/23.
-//
+//2
 
 import UIKit
+import ParseSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        ParseSwift.initialize(applicationId: "a17tQtiagpiKMRoe288yAqpWZmV5fU9vcUJ4wId6",
+                              clientKey: "t97JHx0wZayrJINYMmdh7rxIqZDux8lCt1YaRa9A",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
         return true
     }
 
@@ -30,7 +31,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-
