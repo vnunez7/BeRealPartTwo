@@ -23,6 +23,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of BeReal Clone Pt. 2!
+
 <img src='https://user-images.githubusercontent.com/80440872/230682874-78f0fbae-16a6-4ead-9125-9ff59319b891.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap for macOS.
